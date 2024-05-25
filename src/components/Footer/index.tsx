@@ -12,14 +12,14 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/images/logo/logo.png"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src="/images/logo/logo.svg"
+                    src="/images/logo/logo.png"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
@@ -27,8 +27,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                Seu espaço, sua voz, seu jogo.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -112,7 +111,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                  Saiba mais
                 </h2>
                 <ul>
                   <li>
@@ -120,7 +119,7 @@ const Footer = () => {
                       href="/blog"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Blog
+                      Produto
                     </Link>
                   </li>
                   <li>
@@ -128,7 +127,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
+                      A SafePlay
                     </Link>
                   </li>
                   <li>
@@ -136,7 +135,23 @@ const Footer = () => {
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      Equipe
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/about"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Reviews
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/about"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Atualizações
                     </Link>
                   </li>
                 </ul>
@@ -146,15 +161,15 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                  Conteúdo
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/streams"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      TOS
+                      Streams
                     </Link>
                   </li>
                   <li>
@@ -162,7 +177,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Privacy Policy
+                      Torneios
                     </Link>
                   </li>
                   <li>
@@ -170,7 +185,23 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Refund Policy
+                      Workshops
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Mentorias
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Blog
                     </Link>
                   </li>
                 </ul>
@@ -180,7 +211,7 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                  Suporte
                 </h2>
                 <ul>
                   <li>
@@ -188,7 +219,7 @@ const Footer = () => {
                       href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Open Support Ticket
+                      Como começar
                     </Link>
                   </li>
                   <li>
@@ -196,15 +227,31 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Terms of Use
+                      Help center
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      Reportar bug encontrado
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                    Tutoriais
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                    Chat com o suporte
                     </Link>
                   </li>
                 </ul>
