@@ -16,7 +16,7 @@ const Features = () => {
               data-wow-delay=".15s"
             >
               <div className="relative aspect-[77/40] items-center justify-center">
-                <Image src="/images/video/background.webp" alt="video image" fill />
+                <Image src="/images/community.webp" alt="video image" fill />
               </div>
             </div>
           </div>
