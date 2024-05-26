@@ -1,0 +1,33 @@
+/* Ensure the main container stretches to at least the full height of the viewport */
+.container {
+    display: flex;
+    min-height: 100vh;
+    overflow-y: auto; /* This ensures scrolling on the y-axis if the content is taller than the viewport */
+  }
+  
+  /* Ensure that both sides can coexist without one disappearing */
+  .imageSide, .formSide {
+    flex: 1; /* Each side takes up half of the container */
+    position: relative; /* If using position: absolute in child elements, this context is necessary */
+  }
+  
+  .imageSide {
+    min-width: 50%; /* Ensure that the image side has a minimum width */
+  }
+  
+  .formSide {
+    min-width: 50%; /* Ensure that the form side has a minimum width */
+  }
+  
+  /* Adjust the image fill and cover settings */
+  .imageSide {
+    overflow: hidden; /* Ensures no overflow from this div */
+  }
+  
+  /* If image is not appearing, ensure layout and size are defined */
+  .imageSide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover might hide some parts of the image if the aspect ratio doesn't match */
+  }
+  

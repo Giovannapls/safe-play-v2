@@ -2,19 +2,20 @@
 import Features from "@/components/Features";
 
 import { Metadata } from "next";
+import Event from "@/components/Events";
 
 export const metadata: Metadata = {
-  title: "About Page",
-  description: "This is About Page",
+  title: "Events Page",
+  description: "This is Events Page",
   // other metadata
 };
 
-const AboutPage = () => {
+const EventsPage = () => {
   return (
     <>
-      <Features />
+      <Event />
     </>
   );
 };
 
-export default AboutPage;
+export default EventsPage;

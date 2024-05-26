@@ -1,5 +1,5 @@
 "use client";
-
+import { usePathname } from 'next/navigation';
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -14,6 +14,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const navigation = usePathname();
+  const noHeadefooterPaths = ['/signin', '/signup'];
+const showHeaderFooter = !noHeadefooterPaths.includes(navigation);
   return (
     <html suppressHydrationWarning lang="en">
       {/*
@@ -24,9 +27,9 @@ export default function RootLayout({
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
         <Providers>
-          <Header />
+        {showHeaderFooter && <Header />}
           {children}
-          <Footer />
+          {showHeaderFooter && <Footer />}
           <ScrollToTop />
         </Providers>
       </body>
@@ -34,4 +37,5 @@ export default function RootLayout({
   );
 }
 
-import { Providers } from "./providers";
+import { Providers } from "./providers";import { useRouter } from "next/router";
+
