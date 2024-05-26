@@ -1,4 +1,3 @@
-import { Blog } from "@/types/blog";
 import { EventSafe } from "@/types/event";
 import Image from "next/image";
 import Link from "next/link";

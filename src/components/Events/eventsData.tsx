@@ -1,7 +1,7 @@
 import { EventSafe } from "@/types/event";
 
 
-const blogData: EventSafe[] = [
+const eventData: EventSafe[] = [
   {
     id: "1",
     image: "/images/eventos/torneios.png",
@@ -15,4 +15,4 @@ const blogData: EventSafe[] = [
     image: "/images/eventos/mentorias.png",
   },
 ];
-export default blogData;
+export default eventData;

@@ -4,8 +4,8 @@ import Features from "@/components/Features";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
+  title: "About Page",
+  description: "This is About Page",
   // other metadata
 };
 
