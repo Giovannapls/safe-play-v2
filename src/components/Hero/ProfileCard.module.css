@@ -1,0 +1,160 @@
+.card {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr; /* Adjusted for three columns */
+    grid-template-rows: 1fr 1fr; /* Two rows */
+    grid-template-areas:
+      "profile games stats"
+      "profile tournaments favoriteGame";
+    gap: 16px; /* Spacing between grid items */
+    max-width: 1200px; /* Adjust the max-width as per your UI design */
+    margin: auto; /* Centering the card */
+    background: transparent;
+    padding: 20px; /* Padding around the grid */
+    border-radius: 10px; /* Adjust this value to increase or decrease the rounding */
+    overflow: hidden; /* This ensures that content inside does not overlap the border */
+  }
+  
+  
+  .games {
+    grid-area: games;
+    background-color: #1D0B2B; /* placeholder */
+    border-radius: 8px;
+  }
+  
+  .tournaments {
+    grid-area: tournaments;
+    background-color: #1D0B2B; /* placeholder */
+    border-radius: 8px;
+  }
+  
+  .stats {
+    grid-area: stats;
+    background-color: #1D0B2B; /* placeholder */
+    border-radius: 8px;
+  }
+  
+  .favoriteGame {
+    grid-area: favoriteGame;
+    background-color: #1D0B2B; /* placeholder */
+    border-radius: 8px;
+  }
+  .profile {
+    grid-area: profile;
+    background-color: #1D0B2B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 8px;
+  }
+  
+  
+  
+  .profilePic {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profileId {
+    color: #ccc;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .profileInfo {
+    width: 100%;
+  }
+  
+  .profileName {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .profileStatus {
+    font-size: 16px;
+    opacity: 0.8;
+  }
+  
+  .profileBio {
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  .profileButton {
+    background-color: pink;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .profileOnlineStatus {
+    font-size: 12px;
+    opacity: 0.7;
+  }
+  
+  .sectionTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .gameList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .gameCard {
+    background-color: #4A3C55; /* Slightly lighter than the section background */
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .gameIcon {
+    margin-right: 10px;
+  }
+  
+  .gameName {
+    flex-grow: 1; /* Allows the name to take up any extra space */
+  }
+  
+  .gameRemoveButton {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .tournamentSection {
+    color: white;
+    margin-top: 20px;
+  }
+
+
+  .tournamentList {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .tournamentCard {
+    flex: 1;
+    height: auto; /* Adjust height automatically based on width to maintain aspect ratio */
+    width: 100%; /* Adjust width to fit the container */
+    border-radius: 8px;
+    object-fit: cover; /* Ensures the image covers the area without distorting */
+  }
+  

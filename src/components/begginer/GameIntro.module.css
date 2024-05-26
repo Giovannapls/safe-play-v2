@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center; /* Align vertically */
+    justify-content: space-between; /* Space between the text and image */
+    padding: 20px; /* Padding around the container */
+  }
+  
+  .textContent {
+    flex: 1; /* Take up half the space */
+    padding: 20px; /* Padding inside the text container */
+  }
+  
+  .imageContent {
+    flex: 1; /* Take up the other half */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+  }
+  
+
+  

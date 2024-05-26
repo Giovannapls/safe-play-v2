@@ -18,13 +18,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <ScrollUp />
       <Hero />
-      <Features />
-      <Reasons />
-      <Streams />
-      <Event />
-      <Faq/>
     </>
   );
 }

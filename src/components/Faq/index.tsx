@@ -7,21 +7,37 @@ const Faq = () => {
 
     const faqs = [
       {
-        question: "O que é a SafePlay?",
-        answer: "A SafePlay é uma plataforma inclusiva e segura dedicada a mulheres gamers e profissionais de tecnologia, focada em promover empoderamento, educação e networking."
+        question: "Como montar um computador do zero",
+        answer: "sample response"
       },
       {
-        question: "Como posso me inscrever?",
-        answer: "Você pode se inscrever visitando nossa página de inscrição e preenchendo o formulário fornecido."
+        question: "Quais os principais acessórios que preciso ter para jogar?",
+        answer: "sample response"
       },
       {
-        question: "Quais são os benefícios de participar da SafePlay?",
-        answer: "Os benefícios incluem acesso a eventos exclusivos, networking com outros profissionais da indústria e oportunidades de aprendizado."
+        question: "Como escolher a placa-mãe adequada para meu setup?",
+        answer: "sample response"
       },
       {
-        question: "Posso participar dos campeonatos mesmo sendo iniciante?",
-        answer: "Sim, a SafePlay oferece campeonatos para todos os níveis de habilidade."
-      }
+        question: "Qual a diferença entre HDD e SSD?",
+        answer: "sample response"
+      },
+      {
+        question: "Qual a função e nome de cada peça necessária para um PC?",
+        answer: "sample response"
+      },
+      {
+        question: "Como verificar a compatibilidade dos componentes antes de comprar?",
+        answer: "sample response"
+      },
+      {
+        question: "Como escolher o gabinete ideal para meu setup?",
+        answer: "sample response"
+      },
+      {
+        question: "Como instalar o sistema operacional no novo computador?",
+        answer: "sample response"
+      },
     ];
   
     const toggleFAQ = index => {
@@ -32,7 +48,7 @@ const Faq = () => {
     <section id="faq" className="faq-section bg-gray-light dark:bg-bg-color-dark py-16 md:py-20 lg:py-28">
             <div className="container">
     <SectionTitle
-      title="FAQ"
+      title="Dúvidas frequentes"
       paragraph=""
       center
     />

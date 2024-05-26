@@ -3,32 +3,51 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "INÍCIO",
-    path: "/",
+    title: "COMO COMEÇAR",
+    path: "/start",
     newTab: false,
   },
   {
     id: 2,
-    title: "SAIBA MAIS",
-    path: "/about",
+    title: "COMUNIDADE",
     newTab: false,
+    submenu: [
+      {
+        id: 41,
+        title: "FORÚM",
+        path: "/",
+        newTab: false,
+      },
+      {
+        id: 42,
+        title: "STREAMERS",
+        path: "/streams",
+        newTab: false,
+      },
+      {
+        id: 43,
+        title: "APOIO PSICOLÓGICO",
+        path: "/apoio",
+        newTab: false,
+      },
+      {
+        id: 44,
+        title: "TUTORIAIS",
+        path: "/",
+        newTab: false,
+      },
+    ]
   },
   {
     id: 33,
-    title: "STREAMS",
-    path: "/streams",
-    newTab: false,
+    title: "JOGOS",
+    path: "/",
+    newTab: false
   },
   {
     id: 3,
-    title: "EVENTOS",
-    path: "/events",
-    newTab: false,
-  },
-  {
-    id: 4,
-    title: "FAQ",
-    path: "/faq",
+    title: "DENÚNCIAS",
+    path: "/report",
     newTab: false,
   },
 ];
