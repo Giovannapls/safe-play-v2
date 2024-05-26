@@ -1,61 +1,56 @@
-# Startup - Free Next.js Startup Website Template
+# 🚀 Safe play🚀
 
-Startup free, open-source, and premium-quality startup website template for Next.js comes with everything you need to launch a startup, business, or SaaS website, including all essential sections, components, and pages.
+## 💻 Sobre o Projeto
 
-If you're looking for a high-quality and visually appealing, feature-rich Next.js Template for your next startup, SaaS, or business website, this is the perfect choice and starting point for you!
+Safe play é uma plataforma web, com objetivo de criar uma comunidade inclusiva e apoiadora para todas gamers e, incentivar o ingresso de novas mulheres na área. Juntas, promovemos segurança, empoderamento e crescimento pessoal. 
+- Projeto desenvolvido durante o *Bootcamp* patrocinado pela [Kabum](https://www.kabum.com.br//) o desafio [Mulheres no Game](https://www.kabum.com.br/hotsite/mulheres-no-game/).
 
-### ✨ Key Features
-- Crafted for Startup and SaaS Business
-- Next.js and Tailwind CSS
-- All Essential Business Sections and Pages
-- High-quality and Clean Design
-- Dark and Light Version
-- TypeScript Support
-and Much More ...
-
-### 🙌 Detailed comparison between the Free and Pro versions of Startup
-
-| Feature             | Free | Pro |
-|---------------------|------------|----------|
-| Next.js Landing Page             | ✅ Yes      | ✅ Yes      |
-| All The Integrations - Auth, DB, Payments, Blog and many more ...             | ❌ No      | ✅ Yes |
-| Homepage Variations             | 1      | 2 |
-| Additional SaaS Pages and Components             | ❌ No      | ✅ Yes |
-| Functional Blog with Sanity       | ❌ No      | ✅ Yes | ✅ Yes |
-| Use with Commercial Projects            | ✅ Yes      | ✅ Yes      |
-| Lifetime Free Updates             | ✅ Yes      | ✅ Yes |
-| Email Support       | ❌ No         | ✅ Yes       |
-| Community Support         | ✅ Yes         | ✅ Yes       |
+---
 
 
-### [🔥 Get Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+## ⚙️ [](https://github.com/DivasLu/ApiWishlist#funcionalidades)**Funcionalidades**
 
-[![Startup Pro](https://raw.githubusercontent.com/NextJSTemplates/startup-nextjs/main/startup-pro.webp)](https://nextjstemplates.com/templates/saas-starter-startup)
+Em nossa v0, é possivel:
 
-Startup Pro - Expertly crafted for fully-functional, high-performing SaaS startup websites. Comes with with Authentication, Database, Blog, and all the essential integrations necessary for SaaS business sites.
+1) Visualizar as telas Home, Saiba mais, Eventos, FAQ, Cadastro, Login, Perfil, Como começar, Apoio psicológico, Denúncias.
+2) Interagir com o Video Player da Twitch
+3) Interagir com o Video Player do Youtube
+4) Checar a [Live demo versão deslogada](https://safe-play-v2.vercel.app/)
+5) Checar a [Live demo versão logada](https://safe-play-signed.vercel.app/)
+---
+
+## 🔨 Rodando a aplicação
+> É necessário o uso do Node.js >=18.17
+
+ ```
+ # Clone este repositório
+ git clone https://github.com/Giovannapls/safe-play-v2
+
+ # Acesse a pasta do projeto no terminal/IDE de sua preferencia (bash/cmd):
+ $ cd safe-play-v2
+
+# Rode a Aplicação
+$ npm start dev
+
+ # O servidor iniciará por padrão na porta:3000 - Acesse: http://localhost:3000
+```
+#### Pra alterar entre as versões da aplicação, troque a branch. 
+![image](https://github.com/Giovannapls/safe-play-v2/assets/37786977/b15bddd3-0482-4ebb-b139-910c8c1f4ed3)
+- Main -> Versão deslogada
+- Signed-version -> Versão logada
 
 
-### [🚀 View Free Demo](https://startup.nextjstemplates.com/)
+### Arquitetura
 
-### [🚀 View Pro Demo](https://startup-pro.nextjstemplates.com/)
+#### Organização de arquivos
 
-### [📦 Download](https://nextjstemplates.com/templates/startup)
+* `app` - Comporta as páginas
+* `components` - Comporta os componentes necessários para montagem das telas
+* `public` - Contém a subpasta de Images e o favicon da aplicação
+* `styles` - Contém estilos usados na aplicação inteira
+* `types` - Contém a definição das entidades utilizadas na aplicação
+---
 
-### [🔥 Get Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+## 📝 Licença
 
-### [🔌 Documentation](https://nextjstemplates.com/docs)
-
-### ⚡ Deploy Now
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fstartup-nextjs)
-
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/startup-nextjs)
-
-
-### 📄 License
-Startup is 100% free and open-source, feel free to use with your personal and commercial projects.
-
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
-
-### ✨ Explore and Download - Free [Next.js Templates](https://nextjstemplates.com)
+Este projeto esta sob a licença [MIT](./LICENSE).
