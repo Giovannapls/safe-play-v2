@@ -4,9 +4,10 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="32">
-    <path fill="#FFFFFF" d="M12 1.1L2 6v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V6l-10-4.9zM7 9v2a3 3 0 0 0 6 0V9a3 3 0 0 0-6 0zm4 6.72V18h2v-2.28a2 2 0 1 0-2 0z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5V5l10-3 10 3v3.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path>
 </svg>
+
 
 
     ),

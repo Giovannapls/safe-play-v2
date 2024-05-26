@@ -7,7 +7,10 @@ const bebas = Bebas_Neue({ subsets: ["latin"], weight: '400'});
 
 const Hero = () => {
   return (
-    <>
+<div style={{ 
+      backgroundSize:"100% auto",
+      backgroundImage: `url("/images/background.webp")` ,
+    }}>
       <section
         id="home"
         className="relative z-10 overflow-hidden pb-16 pt-[120px]  md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
@@ -86,7 +89,8 @@ const Hero = () => {
         </h3></li>
 </ul>
       </section>
-    </>
+      
+      </div>
   );
 };
 

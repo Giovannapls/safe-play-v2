@@ -1,6 +1,6 @@
 "use client";
 import { Streamer } from "@/types/streamer";
-import SectionTitle from "../Common/SectionTitle";
+import SectionTitle from "../../components/Common/SectionTitle";
 import SingleStreamer from "./SingleStreamer";
 
 const streamerData: Streamer[] = [
@@ -19,7 +19,7 @@ const streamerData: Streamer[] = [
   },
 ];
 
-const Testimonials = () => {
+const Streams = () => {
   return (
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
@@ -167,4 +167,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Streams;

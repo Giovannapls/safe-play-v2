@@ -23,9 +23,13 @@ const Features = () => {
         </div>
           <SectionTitle
             title="ENCONTRE SEU DUO, TRIO OU SQUAD!"
-            paragraph="Esqueça cair em partidas com atitudes machistas e misóginas. Na SafePlay, você encontra seu Duo, Trio ou Squad em um ambiente seguro e acolhedor.
-
-            Aqui você pode formar equipes com pessoas que compartilham os mesmos valores e respeitam sua jornada como gamer. Jogue com confiança e segurança, sabendo que está cercada por uma comunidade que apoia e valoriza você."
+            paragraph={
+              <>
+                Esqueça cair em partidas com atitudes <span style={{ color: '#FB0171' }}>machistas e misóginas</span>. Na SafePlay, você encontra seu Duo, Trio ou Squad em um ambiente seguro e acolhedor.
+                <br /><br />
+                Aqui você pode formar equipes com pessoas que compartilham os mesmos valores e respeitam sua jornada como gamer. Jogue com <span style={{ color: '#FB0171' }}>confiança e segurança</span>, sabendo que está cercada por uma comunidade que apoia e valoriza você.
+              </>
+            }
             center
           />
           <div className="text-center">

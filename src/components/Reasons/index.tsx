@@ -1,15 +1,10 @@
 "use client";
-
-import Image from "next/image";
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
-
-import ModalVideo from "react-modal-video";
 import SingleFeature from "../Features/SingleFeature";
 import featuresData from "../Features/featuresData";
 
-const Video = () => {
-  const [isOpen, setOpen] = useState(false);
+const Reasons = () => {
 
   return (
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
@@ -31,4 +26,4 @@ const Video = () => {
   );
 };
 
-export default Video;
+export default Reasons;
