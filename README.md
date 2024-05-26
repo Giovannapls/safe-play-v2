@@ -6,7 +6,7 @@ Safe play é uma plataforma web, com objetivo de criar uma comunidade inclusiva 
 - Projeto desenvolvido durante o *Bootcamp* patrocinado pela [Kabum](https://www.kabum.com.br//) o desafio [Mulheres no Game](https://www.kabum.com.br/hotsite/mulheres-no-game/).
 
 ---
-
+### ⚠️ **Para checar nossa API** [CLIQUE AQUI](https://github.com/Giovannapls/safeplay-api) 
 
 ## ⚙️ [](https://github.com/DivasLu/ApiWishlist#funcionalidades)**Funcionalidades**
 
