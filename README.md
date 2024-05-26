@@ -29,8 +29,11 @@ Em nossa v0, é possivel:
  # Acesse a pasta do projeto no terminal/IDE de sua preferencia (bash/cmd):
  $ cd safe-play-v2
 
+# Inicie o npm
+$ npm i
+
 # Rode a Aplicação
-$ npm start dev
+$ npm run dev
 
  # O servidor iniciará por padrão na porta:3000 - Acesse: http://localhost:3000
 ```
